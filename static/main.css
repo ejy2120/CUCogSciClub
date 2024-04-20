@@ -1,0 +1,229 @@
+.highlight{
+    outline: 3px solid lightblue;
+    background-color: #e8f4f8;
+}
+
+.page-header{
+    margin-top: 30px;
+}
+
+.article{
+    margin-bottom: 20px;
+}
+
+.smaller-text{
+    font-size: 20px;
+}
+
+.blue-background{
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.light-blue-background{
+    background-color: #e8f4f8;
+    border-radius: 20px;
+}
+
+.more-padding-top{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.padding-left{
+    padding-left: 20px;
+}
+
+p{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size:15px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right-justify{
+    text-align: right;
+}
+
+.left-justify{
+    text-align: left;
+}
+
+.padding-bottom{
+    padding-bottom: 15px;
+}
+
+.playButton {
+    width: 30px;
+    padding-left: 7px;
+    padding-right: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: #185D77;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: #185D77 0.3s;
+}
+
+.playButton:hover {
+    background-color: #185D77;
+}
+
+.playButton:active {
+    border: #185D77 1px solid;
+}
+
+.back-to-home-button{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: #185D77;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.next-article-button{
+    font-size: 20px;
+    margin-top: 20px;
+    justify-content: right;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: #185D77;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #185D77;
+}
+
+.left{
+    color: white;
+    font-size: 30px;
+}
+
+.right{
+    color: white;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/* Merrick's CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7ff;
+}
+
+
+.container {
+    padding: 20px;
+}
+
+footer {
+    background-color: #185D77; 
+    color: #fff;
+    padding-top: 30px;
+}
+
+.fa-instagram, .fab{
+    color: white;
+    padding-right: 20px;
+    padding-left: 80%;
+}
+
+.fa-linkedin{
+    color: white;
+    padding-right: 20px;
+}
+
+.fa-envelope{
+    color: white;
+}
+
+.logo {
+    margin-left: 40px;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+}
+
+.eboard-member img{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.eboard-member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color:#185D77;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+a:hover {
+    color: white !important; 
+  }
+  
+
+  a:active {
+    color: white !important;
+  }

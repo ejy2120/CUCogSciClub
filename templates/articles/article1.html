@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script> 
+        <script src="{{ url_for('static', filename='reader.js') }}"></script>
+        <link rel="stylesheet" href="../../static/main.css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <title>Article 1</title>
+</head>
+<body>
+    <!--Include the navbar manually (not with Flask) because article2.html is inside a deeper folder-->
+    <div class="navbar">
+        <div class="left" style="margin: 20px;">
+          <img class="logo" src="../../static/images/logo.png">
+          <a class="left" style="padding-left: 10px" href="../homepage.html">CU CogSci Club</a>          
+        </div>
+        <div class="right">
+            <a class="right" href="../eboard.html" style="margin-right: 10px">Meet the Team</a>
+            <a class="right" href="../articles.html">Articles</a>
+        </div>   
+    </div>
+
+
+    <div>
+        <button class="playButton">&#9658;</button>
+        <h1 class="title playable hoverable">Reevaluating an approach to functional brain imaging</h1>
+    </div>
+   
+    <div>
+        <button class="playButton">&#9658;</button>
+        <h2 class="subtitle playable hoverable"><i>Jennifer Michalowski, McGovern Institute for Brain Research.<br>Publication Date: April 4, 2024</i></h2>
+    </div>
+    
+    <div>
+        <button class="playButton">&#9658;</button>
+        <img src="https://www.allthingsdistributed.com/images/fmri-banner.jpg" alt="Series of eight functional MRI scans of the brain from top-down view, mapping out active areas of the brain in red." style="margin-left: 60px; margin-top: 10px">
+    </div>
+
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable"> 
+            A new way of imaging the brain with magnetic resonance imaging (MRI) does not directly detect neural activity as originally reported, according to scientists at MIT’s McGovern Institute for Brain Research.
+        </p>
+    </div>
+    
+
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            The method, first described in 2022, generated excitement within the neuroscience community as a potentially transformative approach. But a study from the lab of MIT Professor Alan Jasanoff, reported March 27 in the journal Science Advances, demonstrates that MRI signals produced by the new method are generated in large part by the imaging process itself, not neuronal activity.
+        </p>      
+    </div>
+
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">        
+            Jasanoff, a professor of biological engineering, brain and cognitive sciences, and nuclear science and engineering, as well as an associate investigator of the McGovern Institute, explains that having a noninvasive means of seeing neuronal activity in the brain is a long-sought goal for neuroscientists. The functional MRI methods that researchers currently use to monitor brain activity don’t actually detect neural signaling. Instead, they use blood flow changes triggered by brain activity as a proxy. This reveals which parts of the brain are engaged during imaging, but it cannot pinpoint neural activity to precise locations, and it is too slow to truly track neurons’ rapid-fire communications.
+        </p>
+    </div>
+   
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            So when a team of scientists reported in 2022 a new MRI method called DIANA, for “direct imaging of neuronal activity,” neuroscientists paid attention. The authors claimed that DIANA detected MRI signals in the brain that corresponded to the electrical signals of neurons, and that it acquired signals far faster than the methods now used for functional MRI.
+        </p>
+    </div>
+    
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            “Everyone wants this,” Jasanoff says. “If we could look at the whole brain and follow its activity with millisecond precision and know that all the signals that we’re seeing have to do with cellular activity, this would be just wonderful. It could tell us all kinds of things about how the brain works and what goes wrong in disease.”
+        </p>     
+    </div>
+
+   <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">       
+            Jasanoff adds that from the initial report, it was not clear what brain changes DIANA was detecting to produce such a rapid readout of neural activity. Curious, he and his team began to experiment with the method. “We wanted to reproduce it, and we wanted to understand how it worked,” he says.
+        </p>
+   </div>
+    
+
+   <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            Jasanoff adds that from the initial report, it was not clear what brain changes DIANA was detecting to produce such a rapid readout of neural activity. Curious, he and his team began to experiment with the method. “We wanted to reproduce it, and we wanted to understand how it worked,” he says.
+        </p>
+   </div>
+    
+        
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            Recreating the MRI procedure reported by DIANA’s developers, postdoc Valerie Doan Phi Van imaged the brain of a rat as an electric stimulus was delivered to one paw. Phi Van says she was excited to see an MRI signal appear in the brain’s sensory cortex, exactly when and where neurons were expected to respond to the sensation on the paw. “I was able to reproduce it,” she says. “I could see the signal.”
+        </p> 
+    </div>   
+          
+        
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            With further tests of the system, however, her enthusiasm waned. To investigate the source of the signal, she disconnected the device used to stimulate the animal’s paw, then repeated the imaging. Again, signals showed up in the sensory processing part of the brain. But this time, there was no reason for neurons in that area to be activated. In fact, Phi Van found, the MRI produced the same kinds of signals when the animal inside the scanner was replaced with a tube of water. It was clear DIANA’s functional signals were not arising from neural activity.
+        </p>
+    </div>
+        
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            Phi Van traced the source of the specious signals to the pulse program that directs DIANA’s imaging process, detailing the sequence of steps the MRI scanner uses to collect data. Embedded within DIANA’s pulse program was a trigger for the device that delivers sensory input to the animal inside the scanner. That synchronizes the two processes, so the stimulation occurs at a precise moment during data acquisition. That trigger appeared to be causing signals that DIANA’s developers had concluded indicated neural activity.
+        </p>
+    </div>
+        
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            Phi Van altered the pulse program, changing the way the stimulator was triggered. Using the updated program, the MRI scanner detected no functional signal in the brain in response to the same paw stimulation that had produced a signal before. “If you take this part of the code out, then the signal will also be gone. So that means the signal we see is an artifact of the trigger,” she says.
+        </p>
+    </div>
+
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            Jasanoff and Phi Van went on to find reasons why other researchers have struggled to reproduce the results of the original DIANA report, noting that the trigger-generated signals can disappear with slight variations in the imaging process. With their postdoctoral colleague Sajal Sen, they also found evidence that cellular changes that DIANA’s developers had proposed might give rise to a functional MRI signal were not related to neuronal activity.
+        </p>
+    </div>    
+        
+        
+    <div>
+        <button class="playButton">&#9658;</button>
+        <p class="playable hoverable">
+            Jasanoff and Phi Van say it was important to share their findings with the research community, particularly as efforts continue to develop new neuroimaging methods. “If people want to try to repeat any part of the study or implement any kind of approach like this, they have to avoid falling into these pits,” Jasanoff says. He adds that they admire the authors of the original study for their ambition: “The community needs scientists who are willing to take risks to move the field ahead.”
+        </p>
+    </div>
+
+    <!--Buttons for going back to homepage and next article-->
+    <div class="row">
+        <div class="col-md-6">
+            <button class="back-to-home-button" onclick="window.location.href='../articles.html'">Back to Articles Homepage</button>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+            <button class="next-article-button" onclick="window.location.href='/articles/2'">Next Article</button>
+        </div>
+    </div>
+
+    <!--Include the footer using Flask-->
+    {% include 'footer.html' %} 
+    
+</body>
+</html>

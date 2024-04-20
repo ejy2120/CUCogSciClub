@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>  
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <title>Cog. Sci. Articles</title>
+</head>
+
+<body>
+    <!--Include the navbar using Flask-->
+     <!--Make sure to pip install Flask beforehand so this works-->
+    {% include 'navbar.html' %} 
+    
+    <div class="container" style="margin-top: 30px">
+
+        <div class="row light-blue-background"  style="margin-top: 30px">
+            <div class="col-md-12">
+                <h1 style="padding-top: 30px; padding-left: 10px; color: #185D77">Articles</h1>
+            </div>
+            <div class="col-md-12">
+                <p style="font-size: 20px; padding-bottom: 30px; padding-left: 10px; padding-right: 10px">Every week, the Cog. Sci. Club releases a brand new article about a <b style="color:rgb(79, 129, 146)">new topic in cognitive science</b>, featuring <b  style="color:rgb(79, 129, 146)">researchers and professors</b> from the field! Stay up to date with all the latest research findings in cognitive science with us!</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-12" style="padding-top: 30px">
+                <h2>Latest releases</h2>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 15px;">
+            <div class="col-md-8">
+                <h3 class="smaller-text">
+                    <a href="/articles/1"><span style="color: #185D77">Reevaluating an approach to functional brain imaging</span></a>
+                </h3>
+            </div>
+            <div class="col-md-4">
+                <p class="right-justify"><i>April 4, 2024</i></p>
+            </div>
+        </div>
+            
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-8">
+                <h3 class="smaller-text">
+                    <a href="/articles/2"><span style="color: #185D77">Learning a new language makes it harder to remember previously learned foreign languages</span></a>
+                </h3>
+            </div>
+            <div class="col-md-4">
+                <p class="right-justify"><i>April 1, 2024</i></p>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-md-8">
+                <h3 class="smaller-text">
+                    <a href="/articles/3"><span style="color: #185D77">What is the Autonomous Sensory Meridian Response? ASMR phenomenon detailed in new systematic review</span></a>
+                </h3>
+            </div>
+            <div class="col-md-4">
+                <p class="right-justify"><i>April 4, 2024</i></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Include the footer using Flask-->
+    {% include 'footer.html' %} 
+</body>
+

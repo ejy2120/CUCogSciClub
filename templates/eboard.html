@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>  
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <title>EBoard + Members</title>
+</head>
+<body>
+     <!--Include the navbar using Flask-->
+      <!--Make sure to pip install Flask beforehand so this works-->
+     {% include 'navbar.html' %} 
+    
+    <div class="container">
+        <h2 class="banner">E-Board</h2>
+
+        <div class="container">
+            <!--First row of members-->
+            <div class="row">
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/C4D03AQFFUvGfFgisJg/profile-displayphoto-shrink_400_400/0/1627910942486?e=1718236800&v=beta&t=CRN0vopu5ZipKmop5IGwpVbwWYu4UbTJ8c2dknqbDYg" alt="Headshot of Ariel Wu">
+                    <h3>Ariel Wu</h3>
+                    <h4>Co-Founder</h4>
+                    <h5>BC '23</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/ariel-wu-63624716b/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: cw3324@barnard.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/D4E03AQF3LFDb1gJ2jw/profile-displayphoto-shrink_400_400/0/1679327951155?e=1718236800&v=beta&t=-L1oHGiBVqX7__RGyt18VhkulswaSnALGSWGS4xNsmA" alt="Headshot of Annie Xu">
+                    <h3>Annie Xu</h3>
+                    <h4>Co-Founder</h4>
+                    <h5>CC '25</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/annie-yang-xu/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: yx2649@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                     <img src="https://media.licdn.com/dms/image/D4E03AQEC1mT0LzGiug/profile-displayphoto-shrink_400_400/0/1666577193181?e=1718236800&v=beta&t=Xho0LYIdmF0lqSkTPZjIpJ_o1Sc9fUeaVVlEn0-KPg0" alt="Headshot of Cairo Yepez">
+                    <h3>Cairo Yepez</h3>
+                    <h4>Co-Founder / Secretary</h4>
+                    <h5>CC '24</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/cairo-yepez/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: cy2590@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Second row of members-->
+            <div class="row">
+                <div class="col-md-4 eboard-member">
+                    <img src="../static/images/logo.png" alt="Headshot of Elizbeth Kim">
+                    <h3>Elizabeth Kim</h3>
+                    <h4>Treasurer</h4>
+                    <h5>GS '24</h5>
+                    <div class="social-media">
+                        <a href="mailto: ek2935@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/D5603AQFlnFmDQ02Kqg/profile-displayphoto-shrink_400_400/0/1635402015818?e=1718236800&v=beta&t=2TmzwmNPD1nJe7T3DFwdSoLnQdx72wYcYdH84RFeeD0" alt="Headshot of Emily Yao">
+                    <h3>Emily Yao</h3>
+                    <h4>VP Membership</h4>
+                    <h5>CC '26</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/emily-yao-ba776a1ab/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: ey2290@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                     <img src="https://media.licdn.com/dms/image/D4E35AQGHv3zIuefI5A/profile-framedphoto-shrink_400_400/0/1697515794521?e=1713477600&v=beta&t=G94Z6oI0b73P4qkVrphTqFZp3eTrwLMpLCnB_bKvSHA" alt="Headshot of Loveleen Virdi">
+                    <h3>Loveleen Virdi</h3>
+                    <h4>VP Membership</h4>
+                    <h5>BC '26</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/lovleen-virdi/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: lovvirdi@gmail.com"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Third row of members-->
+            <div class="row">
+                <div class="col-md-4 eboard-member">
+                    <img src="../static/images/logo.png" alt="Headshot of Hera Kreutzer">
+                    <h3>Hera Kreutzer</h3>
+                    <h4>VP Communication</h4>
+                    <h5>BC '26</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/hera-k-5a0675a9/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: thk2125@barnard.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/D4E03AQEIiPGqSh9HYA/profile-displayphoto-shrink_400_400/0/1691710627693?e=1718236800&v=beta&t=Hg1Q4Lws86JIMXeCJg_RlTsc2bagS3cNXtnJf5EptvU" alt="Ainsley Cunningham">
+                    <h3>Ainsley Cunningham</h3>
+                    <h4>VP Communication</h4>
+                    <h5>CC '25</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/ainsleycunningham/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: ac5513@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                     <img src="../static/images/logo.png" alt="Headshot of Philip Tham">
+                    <h3>Philip Tham</h3>
+                    <h4>VP Partnerships</h4>
+                    <h5>GS '25</h5>
+                    <div class="social-media">
+                        <a href="mailto: ht2546@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!--Fourth row of members-->
+             <div class="row">
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/C4E03AQHxxUeqKOXwYA/profile-displayphoto-shrink_400_400/0/1660972038271?e=1718236800&v=beta&t=f9Bdb8s8OGFGdFC3jgC8jweN7bkVpfWJbXTWYOfWVx0" alt="Headshot of June Lee">
+                    <h3>June Lee</h3>
+                    <h4>VP Partnerships</h4>
+                    <h5>BC '26</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/june-lee-18snvk90/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: jrl2227@barnard.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member"></div>
+                <div class="col-md-4 eboard-member"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--COMMITTEE LEADS-->
+    <div class="container">
+        <h2 class="banner">Committee Leads</h2>
+
+        <div class="container">
+            <!--First row of members-->
+            <div class="row">
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/D5603AQEatt2OuNjCig/profile-displayphoto-shrink_400_400/0/1689224292830?e=1718236800&v=beta&t=DXUrC5qBGM35Mj5DoOt5-HN8Lvzc9VCHUyTutdKcYQs" alt="Headshot of Oliiva Sopala">
+                    <h3>Olivia Sopala</h3>
+                    <h4>CogSci Fam</h4>
+                    <h5>BC '27</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/olivia-s-b16147256/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: ofs2112@barnard.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/D4E35AQGHv3zIuefI5A/profile-framedphoto-shrink_400_400/0/1697515794521?e=1713477600&v=beta&t=G94Z6oI0b73P4qkVrphTqFZp3eTrwLMpLCnB_bKvSHA" alt="Headshot of Loveleen Virdi">
+                   <h3>Loveleen Virdi</h3>
+                   <h4>CogSci Fam</h4>
+                   <h5>BC '26</h5>
+                   <div class="social-media">
+                       <a href="https://www.linkedin.com/in/lovleen-virdi/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                       <a href="mailto: lovvirdi@gmail.com"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                   </div>
+               </div>
+                <div class="col-md-4 eboard-member">
+                     <img src="https://media.licdn.com/dms/image/D4E35AQEBOH3Zi1L3Rg/profile-framedphoto-shrink_400_400/0/1674340384430?e=1713477600&v=beta&t=e-TW6JIJ0AYdHRCKFdAIJDehohFQuOOrHOv3Spga-rI" alt="Headshot of Lily Penn">
+                    <h3>Lily Penn</h3>
+                    <h4>CogSci Fam</h4>
+                    <h5>GS '25</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/lily-penn-4783b5228/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: lap2217@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Second row of members-->
+            <div class="row">
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/D5603AQFlnFmDQ02Kqg/profile-displayphoto-shrink_400_400/0/1635402015818?e=1718236800&v=beta&t=2TmzwmNPD1nJe7T3DFwdSoLnQdx72wYcYdH84RFeeD0" alt="Headshot of Emily Yao">
+                    <h3>Emily Yao</h3>
+                    <h4>Cog Sci Careers</h4>
+                    <h5>CC '26</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/emily-yao-ba776a1ab/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: ey2290@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/D4E03AQEoCjafY5s2Vw/profile-displayphoto-shrink_400_400/0/1693379912450?e=1718236800&v=beta&t=qwuHxNNKyWyJyuKKR0iBsGSSq3iOaTf7r6vN22GIIFs" alt="Headshot of Jaeho Kim">
+                    <h3>Jaeho Kim</h3>
+                    <h4>CogSci Careers | Journal Club</h4>
+                    <h5>CC '25</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/jaeho-kim-380453143/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: jk4359@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                     <img src="../static/images/logo.png" alt="Headshot of Elizabeth Kim">
+                    <h3>Elizabeth Kim</h3>
+                    <h4>CogSci Careers</h4>
+                    <h5>GS '24</h5>
+                    <div class="social-media">
+                        <a href="mailto: ek2935@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Third row of members-->
+            <div class="row">
+                <div class="col-md-4 eboard-member">
+                    <img src="https://media.licdn.com/dms/image/C5603AQGR_pf7HfKB4Q/profile-displayphoto-shrink_400_400/0/1650326270441?e=1718236800&v=beta&t=zlJNksPjBlZp29_V9q4y-Qj282gm2Iq_AyoXzeZz_cI" alt="Headshot of Esther Thielking">
+                    <h3>Esther Thielking</h3>
+                    <h4>CogSci Buddies | Journal Club</h4>
+                    <h5>BC '24</h5>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/esther-thielking-39232b1b9/"><i class="fa-brands fa-linkedin" style="color: black;"></i></a>
+                        <a href="mailto: emt2187@barnard.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                    <img src="../static/images/logo.png" alt="Headshot of Yennie Park">
+                    <h3>Yennie Park</h3>
+                    <h4>CogSci BUddies</h4>
+                    <h5>GS '25</h5>
+                    <div class="social-media">
+                        <a href="mailto: yp2707@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 eboard-member">
+                     <img src="../static/images/logo.png" alt="Headshot of Alexander Speen">
+                    <h3>Alexander Speen</h3>
+                    <h4>Journal Club</h4>
+                    <h5>CC '26</h5>
+                    <div class="social-media">
+                        <a href="mailto: aes2376@columbia.edu"><i class="fa-regular fa-envelope" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             
+        </div>
+    </div>
+
+    <!--Include the footer using Flask-->
+    {% include 'footer.html' %} 
+</body>
+</html>

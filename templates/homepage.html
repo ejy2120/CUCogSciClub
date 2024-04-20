@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>  
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!--For Instagram icon-->
+    <script src="https://kit.fontawesome.com/6188a4be33.js" crossorigin="anonymous"></script>
+
+    <title>Homepage</title>
+</head>
+<body>
+    <!--Include the navbar using Flask-->
+    <!--Make sure to pip install Flask beforehand so this works-->
+    {% include 'navbar.html' %} 
+    
+    <div class="container">
+        <section id="welcome" style="margin-top: 50px;background-color: #e8f4f8; border-radius: 20px; padding: 40px;">
+            <h2 style="color: rgb(67, 141, 166)"><b>Welcome to Columbia University's CogSci Club!</b></h2>
+            <p style="font-size: 20px; margin-top: 30px">Welcome to the official website of <b style="color: rgb(67, 141, 166)">CU CogSci Club</b>, where we explore the fascinating intersections of cognitive science. Our club is dedicated to fostering a <a href="/eboard.html"> <b  style="color: rgb(67, 141, 166)">community of Columbia/Barnard students</b></a> interested in understanding the <a href="/articles.html"><b style="color: rgb(67, 141, 166)">mind and brain from various perspectives.</b></a></p>
+            <p style="font-size: 20px;">CU CogSci Club brings together students from diverse academic backgrounds who share a passion for cognitive science. Whether you're majoring in psychology, computer science, neuroscience, linguistics, or philosophy, you're welcome to join us!</p>
+        </section>
+        
+        <section id="get-involved" style="margin-top: 50px; margin-bottom: 50px; background-color: #e8f4f8; border-radius: 20px; padding: 40px; ">
+            <h2 style="color: rgb(67, 141, 166)"><b>Get Involved</b></h2>
+            <p style="font-size: 20px;">Interested in joining CU CogSci Club? We'd love to have you on board! Stay updated on our upcoming <b style="color: rgb(67, 141, 166)">events, discussions, and activities</b> by becoming a member today. Reach out to us via email <a href="mailto:cucogsciclub@example.com"><b style="color: rgb(67, 141, 166)">cucogsciclub@gmail.com</b></a> or visit our next meeting to learn more.</p>
+        </section>
+    </div>
+
+    <!--Include the footer using Flask-->
+    {% include 'footer.html' %} 
+
+</body>
+</html>
